@@ -1,0 +1,55 @@
+:root {
+    --primary-color: #fcb738;
+    --secondary-color: #0e78b1;
+    --tertiary-color: #4ba7b1;
+}/* remove built in HTML styling using universal selector */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* apply style to the <body> */
+body {
+    color: var(--primary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply design to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+/* remove the underline and blue from the hyperlinks by setting text-dec to 'none' */
+header a {
+    text-decoration: none;
+    display: flex;
+}
+
+nav a {
+    color: var(--primary-color);
+    padding: 14px 20px;
+    text-align: center;
+}
+
+/*remove bullets & space horizontally*/ 
+nav li {
+    list-style: none;
+    float: left;
+}
