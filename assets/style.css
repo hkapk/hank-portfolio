@@ -93,14 +93,16 @@ nav li {
 
 .section-title {
     font-size: 48px;
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     margin-bottom: 35px;
     padding-bottom: 20px;
-    text-align: center;
+    text-align: left;
     margin: 10px 20px 10px 20px;
     padding: 20px 35px;
     width: 30%;
-    justify-content: center;
+    display: flex;
+    text-decoration: none;
+
 }  
   .primary-border {
     border-color: var(--tertiary-color);
@@ -114,9 +116,13 @@ nav li {
     flex-wrap: wrap;
     text-align: center;
     display: flex;
-    background-color: red;
+    background-color: white;
     text-decoration: none;
     list-style: none;
+    }
+
+    .flex-row p {
+        padding: 20px;
     }
 
     .flex-row h2 {
@@ -124,11 +130,15 @@ nav li {
     }
 
   /*all pictures in the body */ 
+  .ul img {
+    width: 16px;
+}
+
+
   .flex-row img {
-      width: 60%;
-      flex-wrap: wrap;
-      justify-content: center;
-  }
+      width: 80%;
+      flex-wrap: wrap;    
+    }
 
   .contact-me {
     padding: 20px 35px;
@@ -205,7 +215,6 @@ nav li {
             flex-wrap: wrap;
             text-align: center;
             display: flex;
-            background-color: red;
         }
 
         .intro img {
@@ -222,6 +231,10 @@ nav li {
             width: 75%;
         }
 
+
+            .address img {
+                width: 16px;;
+            }
 
 
 
