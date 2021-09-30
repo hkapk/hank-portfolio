@@ -83,7 +83,6 @@ nav li {
     margin: 10px 20px 10px 20px;
     padding: 20px 35px;
     width: 50%;
-    flex-wrap: wrap;
 }  
   .primary-border {
     border-color: var(--tertiary-color);
@@ -97,12 +96,36 @@ nav li {
 
   }
 
+  .flex-row img {
+      width: 30%;
+      flex-wrap: wrap;
+  }
+
+  .RunBuddy img {
+      width:80%;
+  }
+
+  .RobotGlad img {
+      width: 70%;
+  }
+
   .flex-row a {
     list-style: none;
     float: right;
     font-size: 24px;
     text-decoration: none;
     display: flex;
+  }
+
+  .work{
+    padding: 20px 35px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+  }
+
+  .contact {
+    padding: 20px 35px;
+    margin-top: 30px;
   }
 
 
@@ -112,8 +135,23 @@ nav li {
       padding: 10px 10px 10px 10px;
       margin: 10px 10px 10px 10px;
       text-align: center;
-  }
+      justify-content: center;
+    
+    }
 
-.works {
-    padding: 20px;
-}
+
+    @media screen and (max-width: 980px) {
+
+    }
+    
+    
+    /* For tablets and smaller */
+    @media screen and (max-width: 768px) {
+            /* 768px - 575px */
+    
+    }
+    
+    @media screen and (max-width: 575px) {
+
+    }
+
