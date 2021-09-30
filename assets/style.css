@@ -4,8 +4,7 @@
     --tertiary-color: #4ba7b1;
 }/* remove built in HTML styling using universal selector */
 
-
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,7 +20,7 @@ body {
 
 /* apply design to <header> */
 header {
-    padding: 20px 35px;
+    padding: 10px 35px;
     background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
@@ -61,8 +60,8 @@ nav li {
 
 /*style the subtitle*/ 
 .hero {
-    padding: 20px 35px;
-    margin-bottom: 30px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
     color: var(--tertiary-color);
     background-color: var(--primary-color);
     flex-wrap: wrap;
@@ -96,17 +95,22 @@ nav li {
 
   }
 
+  /*all pictures in the body */ 
   .flex-row img {
-      width: 30%;
+      width: 20%;
       flex-wrap: wrap;
   }
 
   .RunBuddy img {
       width:80%;
+      display: flex;
+      padding-bottom: 10px;
+      padding-left: 25px;;
   }
 
   .RobotGlad img {
-      width: 70%;
+      width: 75%;
+      display: flex;
   }
 
   .flex-row a {
@@ -120,27 +124,52 @@ nav li {
   .work{
     padding: 20px 35px;
     margin-top: 30px;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
+    font-size: 55px;
   }
 
-  .contact {
+  .works {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      display: grid;
+  }
+
+  .contact-me {
     padding: 20px 35px;
     margin-top: 30px;
+    margin-bottom: 200px;
+    display: block;
+  }
+
+  .address {
+      float: right;
+      font-size: 24px;
+      flex-wrap: wrap;
+      list-style: none;
+      margin-bottom: 20px;
+      padding-right: 48px;
+  }
+
+  .address ul {
+    text-decoration: none;
+    list-style: none;
   }
 
 
   .footer {
-      font-size: 18px;
+      font-size: 100%;
       color: var(--tertiary-color);
-      padding: 10px 10px 10px 10px;
-      margin: 10px 10px 10px 10px;
       text-align: center;
       justify-content: center;
-    
+      margin-top: 20%;
     }
 
 
-    @media screen and (max-width: 980px) {
+    @media screen and (max-width: 1024px) {
+
+        .header {
+            justify-content: center;
+        }
 
     }
     
@@ -152,6 +181,7 @@ nav li {
     }
     
     @media screen and (max-width: 575px) {
+
 
     }
 
