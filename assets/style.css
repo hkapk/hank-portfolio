@@ -190,6 +190,19 @@ nav li {
     
     /* For tablets and smaller */
     @media screen and (max-width: 768px) {
+
+        .flex-row {
+        font-size: 60%;
+        color: var(--secondary-color);
+        text-align: right;
+        padding: 5% 5%;
+        flex-wrap: wrap;
+        text-align: center;
+        display: grid;
+        background-color: white;
+        text-decoration: none;
+        list-style: none;
+          }
             /* 768px - 575px */
     
     }
@@ -207,16 +220,36 @@ nav li {
             font-size: 90%;
         }
 
-        .work {
+        .section-title {
+            font-size: 36px;
+            color: var(--tertiary-color);
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            text-align: left;
+            margin: 10px 10px;
+            padding: 20px 15px;
+            width: 10%;
+            display: flex;
+            text-decoration: none;
             flex-wrap: wrap;
-        }
-        .flex-row {
-            padding: 10px;
+        
+        }  
+          .primary-border {
+            border-color: var(--tertiary-color);
+          }
+        
+          .flex-row {
+            font-size: 18px;
+            color: var(--secondary-color);
+            text-align: right;
+            padding: 20px 35px;
             flex-wrap: wrap;
             text-align: center;
             display: flex;
-        }
-
+            background-color: white;
+            text-decoration: none;
+            list-style: none;
+            }
         .intro img {
             width: 80%;
             float: right;
@@ -235,8 +268,6 @@ nav li {
             .address img {
                 width: 16px;;
             }
-
-
 
     }
 
